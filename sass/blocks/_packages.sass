@@ -1,0 +1,198 @@
+.packages
+  padding: 40px 0 70px 0
+  &__title
+    font-style: normal
+    font-weight: bold
+    font-size: 36px
+    line-height: 45px
+    text-align: center
+    text-transform: uppercase
+    margin-top: 0
+    margin-bottom: 65px
+  &-block
+    max-width: 1100px
+    margin: auto
+    display: grid
+    grid-template-rows: 500px 500px
+    grid-template-columns: repeat(3, 1fr)
+    column-gap: 30px
+    row-gap: 30px
+    &__first
+      display: grid
+      grid-column: 1/3
+      height: 100%
+      grid-template-columns: 366px 364px
+    &__second, &__third, &__fourth, &__fifth
+      display: grid
+      grid-template-rows: 250px 250px
+      border-radius: 8px
+
+.package
+  &__photo
+    border-radius: 8px 8px 0 0
+    height: 100%
+    &-first
+      border-radius: 8px 0 0 8px
+  &-description
+    background-color: $dark
+.descriptions
+  padding: 46px 21px 30px 43px
+  color: $light
+  border-radius: 0px 8px 8px 0px
+  height: 500px
+  &__rating
+    flex-basis: 100%
+    line-height: 5px
+    margin-bottom: 6px
+  &__star
+    height: 6px
+  &__title
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 23px
+    margin-top: 0
+    margin-bottom: 27px
+  &__text
+    margin-top: 0
+    margin-bottom: 34px
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 160.6%
+  &__room
+    display: grid
+    grid-template-rows: 15px 15px 15px
+    row-gap: 11px
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+    margin-bottom: 37px
+    margin-top: 0
+  &__icon
+    margin-right: 15px
+    height: 15px
+    width: 15px
+  &__price
+    display: grid
+    grid-template-rows: 18px 30px
+    row-gap: 11px
+  &__book
+    position: relative
+    display: grid
+    grid-template-columns: 1fr 120px
+  &__button
+    position: absolute
+    height: 40px
+    right: 0
+    bottom: 0
+    background-color: $primary
+    border: 0
+    font-family: Nunito
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 19px
+    color: $light
+    padding: 11px 26px
+    cursor: pointer
+    border-radius: 4px
+  &__info
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+.price-old
+  font-style: normal
+  font-weight: normal
+  font-size: 14px
+  line-height: 18px
+  text-decoration-line: line-through
+.price-new
+  font-style: normal
+  font-weight: bold
+  font-size: 24px
+  line-height: 30px
+
+.description
+  padding: 30px 21px 25px 32px
+  color: $light
+  border-radius: 0px 0px 8px 8px
+  &__title
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 23px
+    margin-top: 0
+    margin-bottom: 23px
+  &__room
+    display: grid
+    grid-template-rows: 15px 15px 15px
+    row-gap: 11px
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+    margin-bottom: 24px
+    margin-top: 0
+  &__icon
+    margin-right: 15px
+    height: 15px
+    width: 15px
+  &__price
+    display: grid
+    grid-template-rows: 18px 30px
+    row-gap: 11px
+  &__book
+    position: relative
+    display: grid
+    grid-template-columns: 1fr 120px
+  &__button
+    position: absolute
+    height: 40px
+    right: 0
+    bottom: 0
+    background-color: $primary
+    border: 0
+    font-family: Nunito
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 19px
+    color: $light
+    padding: 11px 26px
+    cursor: pointer
+    border-radius: 4px
+.price-old
+  font-style: normal
+  font-weight: normal
+  font-size: 14px
+  line-height: 18px
+  text-decoration-line: line-through
+.price-new
+  font-style: normal
+  font-weight: bold
+  font-size: 24px
+  line-height: 30px
+.image-block,
+.image-block-first
+  position: relative
+.package-offer,
+.package-offer-first
+  position: absolute
+  left: 0
+  top: 20px
+  border-radius: 0px 4px 4px 0px
+  background-color: $primary
+  color: $light
+.package-offer-first
+  font-style: normal
+  font-size: 12px
+  line-height: 15px
+  padding: 8px 12px 7px 11px
+.package-offer
+  font-style: normal
+  font-size: 8px
+  line-height: 10px
+  padding: 4px 9px 4px 9px
